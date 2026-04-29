@@ -1,6 +1,6 @@
 class MonthlyAveragesCalculator
   def self.call
-    # return unless valid_run_day?
+    return unless valid_run_day?
 
     stats = DailyStatistic.order(date: :desc)
 

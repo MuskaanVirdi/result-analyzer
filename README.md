@@ -11,3 +11,8 @@
 bundle install
 rails db:create db:migrate
 rails s
+
+## Background Jobs
+- Daily statistics are processed via `DailyStatsJob` (scheduled at 6 PM)
+- Monthly averages are processed via `MonthlyAveragesJob`
+- Scheduling is handled using the `whenever` gem (cron-based)
