@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root "hello#index"
+namespace :api do
+  resources :test_results, only: [:create]
+end
 end

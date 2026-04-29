@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  avg_daily_low: 1.5
+  avg_daily_high: 1.5
+  total_result_count: 1
+  calculated_at: 2026-04-29 07:33:27
+
+two:
+  avg_daily_low: 1.5
+  avg_daily_high: 1.5
+  total_result_count: 1
+  calculated_at: 2026-04-29 07:33:27
